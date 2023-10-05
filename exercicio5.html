@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+
+<body>
+    <h1>Nivel 1</h1>
+    <label for="nome"> Name
+        <input type="text" id="nome1" placeholder="seu nome">
+    </label>
+
+    <button id="botao_1">Envie seu nome</button>
+    <p id="minhaMensagem"></p>
+
+    <script>
+        document.getElementById("botao_1").addEventListener("click",
+            function () {
+                var nome = document.getElementById("nome1").value
+
+                if (nome) {
+                    document.getElementById.("minhaMensagem").innerHTML = "Ola,mundo" + nome + ".Seja bem viado ao site"
+                } else {
+                    document.getElementById("minhaMensagem").innerHTML = ".Insira um nome."
+
+                }
+            }
+        )
+
+
+    </script>
+
+</body>
+
+</html>
