@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    color:blueviolet; 
+}
+
+button{
+    background-color: greenyellow;
+    color: #33106b;
+    border: none;
+    padding: 20px 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 20px;
+}
